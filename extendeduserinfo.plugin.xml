@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<pluggable type="plugin">
-	<name>Extended User Info/name>
+<pluggable type="plugin" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schemas.habariproject.org/pluggable/0.8">
+	<name>Extended User Info</name>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 
 	<author url="http://miklb.com">Michael Bishop</author>
 
 	<version>1.0</version>
 	<url>http://miklb.com</url>
-	<description><![CDATA[Extends the user information with additonal fields for social media links and bio blurb.]]></description>
+	<description><![CDATA[Extends the user information with additional fields for social media links and bio blurb.]]></description>
 	<copyright>2012</copyright>
+	<guid>6fba6b9b-d33e-4100-9d5e-38b9b6ce766c</guid>
 
 </pluggable>
+
