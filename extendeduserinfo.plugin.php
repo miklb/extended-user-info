@@ -19,7 +19,7 @@ class ExtendedUserInfo extends Plugin
 		$facebookurl->value = $user->info->facebookurl;
 
 		//Add Bio blurb
-		$bio = $form->user_info->append ('textarea', 'bioblurb', 'null:null', _t('Bio Blurb'), 'optionscontrol_text' );
+		$bio = $form->user_info->append ('textarea', 'bioblurb', 'null:null', _t('Bio Blurb'), 'optionscontrol_textarea' );
 		$bio->class[] = 'item clear';
 		$bio->value = $user->info->bioblurb;
 
