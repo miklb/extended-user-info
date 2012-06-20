@@ -24,5 +24,18 @@ class ExtendedUserInfo extends Plugin
 		$bio->value = $user->info->bioblurb;
 
 	}
+
+	/**
+	 * Save authentication fields
+	 **/
+
+	public function filter_adminhandler_post_user_fields( $fields )
+	{
+		$fields[] = 'twitterurl';
+		$fields[] = 'facebookurl';
+		$fields[] = 'bioblurb';
+
+		return $fields;
+	}
 }
 ?>
