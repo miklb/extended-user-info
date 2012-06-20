@@ -9,7 +9,7 @@ License: [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.
 
 Version: 1.0
 
-===Usage===
+=== Usage ===
 
 Currently the plugin extends for a Twitter URL, Facebook URL &amp; a bio blurb. Since this plugin is extending the author info, simply using `$post->author->info->` for the three options. 
 
